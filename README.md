@@ -20,6 +20,8 @@ docker image ls
 ### Run my newly built container
 
 docker run -it hello-duke-cli-210 python app.py --name "Big John"
+-or-
+docker run -it noagift/claudapp   python app.py --name "Big John"
 
 ### Push to Docker Hub
 
@@ -27,7 +29,7 @@ docker run -it hello-duke-cli-210 python app.py --name "Big John"
 docker push noahgift/duke102:tagname
 
 ## Run it yourself
-### remember noahgift/cloudapp is the name of the GitRepository, /latest is the default tag 
+### remember noahgift/cloudapp is the name of the external Docker Hub, /latest is the default tag 
 
 ```bash
 docker pull noahgift/cloudapp:latest
