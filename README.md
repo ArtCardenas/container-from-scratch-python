@@ -22,8 +22,10 @@ https://www.coursera.org/lecture/cloud-virtualization-containers-api-duke/build-
 
 ### Run my newly built container
 
+         # run docker locally
          docker run -it hello-duke-cli-210 python app.py --name "Big John"
-         -or-
+         
+         # run docker hosted somewhere else, External Docker Hub
          docker run -it noagift/claudapp   python app.py --name "Big John"
 
 ### Push to Docker Hub
