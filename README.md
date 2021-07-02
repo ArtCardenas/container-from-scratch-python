@@ -19,9 +19,9 @@ docker image ls
 
 ### Run my newly built container
 
-docker run -it hello-duke-cli-210 python app.py --name "Big John"
--or-
-docker run -it noagift/claudapp   python app.py --name "Big John"
+         docker run -it hello-duke-cli-210 python app.py --name "Big John"
+         -or-
+         docker run -it noagift/claudapp   python app.py --name "Big John"
 
 ### Push to Docker Hub
 
