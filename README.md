@@ -4,8 +4,11 @@ This is building a container from scratch
 ## Build the Container Yourself and Push to Docker Hub
 ### 1.- see Dockerfile, that is how the container is built
 ### 2.- look at the app.py python application file
-### 3.- GoTo Cloud9:
+### 3.- from project root, go to "Code" and then clone SSH, click the clipboard button
+### 4.- GoTo Cloud9:
          Type $ git clone git@github.com:ArtCardenas/container-from-scratch-python.git
+              $ cd container-from-scratch-python
+              $ ls
 
 ### Build image
 *(If you want to develop yourself)* 
