@@ -11,7 +11,7 @@ This is building a container from scratch
               $ ls
 
 ### Build image
-*(If you want to develop yourself)* 
+*(If you want to develop yourself)* the dot "." looks inside current working directory and built based on docker file
 
          docker build --tag=hello-duke-cli-210 .
 
