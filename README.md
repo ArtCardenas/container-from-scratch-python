@@ -1,5 +1,6 @@
 # container-from-scratch-python
 This is building a container from scratch
+
 https://www.coursera.org/lecture/cloud-virtualization-containers-api-duke/build-a-docker-container-project-from-scratch-BnG1F
 
 ## Build the Container Yourself and Push to Docker Hub
