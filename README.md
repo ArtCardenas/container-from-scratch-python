@@ -15,7 +15,7 @@ This is building a container from scratch
 docker build --tag=hello-duke-cli-210 .
 
 ### List docker images
-docker image ls
+         docker image ls
 
 ### Run my newly built container
 
@@ -25,8 +25,8 @@ docker image ls
 
 ### Push to Docker Hub
 
-*Note:  You will need to change for your Docker Hub Repo*
-docker push noahgift/duke102:tagname
+         *Note:  You will need to change for your Docker Hub Repo*
+         docker push noahgift/duke102:tagname
 
 ## Run it yourself
 ### remember noahgift/cloudapp is the name of the external Docker Hub, /latest is the default tag 
