@@ -12,6 +12,7 @@ This is building a container from scratch
 
 ### Build image
 *(If you want to develop yourself)* 
+
          docker build --tag=hello-duke-cli-210 .
 
 ### List docker images
