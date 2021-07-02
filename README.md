@@ -27,6 +27,7 @@ docker run -it hello-duke-cli-210 python app.py --name "Big John"
 docker push noahgift/duke102:tagname
 
 ## Run it yourself
+### remember noahgift/cloudapp is the name of the GitRepository, /latest is the default tag 
 
 ```bash
 docker pull noahgift/cloudapp:latest
